@@ -1,0 +1,71 @@
+* {
+    font-size: inherit;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #303134;
+}
+
+body {
+    margin: 0;
+    font-family: ui-monospace, 
+                 Menlo, Monaco, 
+                 "Cascadia Mono", "Segoe UI Mono", 
+                 "Roboto Mono", 
+                 "Oxygen Mono", 
+                 "Ubuntu Monospace", 
+                 "Source Code Pro",
+                 "Fira Mono", 
+                 "Droid Sans Mono", 
+                 "Courier New", monospace;
+    font-size: 24px;
+    height: 100vh;
+    color: #FFFFFC;
+    /* line-height: 2rem; */
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: rgb(56, 198, 208);
+}
+
+
+.line {
+    padding: 0.25rem 0.50rem;
+}
+
+
+.prompt {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.prompt-prefix {
+    margin-right: 0.25rem;
+}
+
+.prompt input {
+    padding: 0;
+    flex-grow: 1;
+    border: none;
+    background-color: transparent;
+    color: #FFFFFC;
+    font-family: ui-monospace, 
+                 Menlo, Monaco, 
+                 "Cascadia Mono", "Segoe UI Mono", 
+                 "Roboto Mono", 
+                 "Oxygen Mono", 
+                 "Ubuntu Monospace", 
+                 "Source Code Pro",
+                 "Fira Mono", 
+                 "Droid Sans Mono", 
+                 "Courier New", monospace;
+}
+
+.prompt input:focus {
+    outline: none;
+}
