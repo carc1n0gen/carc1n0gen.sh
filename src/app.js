@@ -16,7 +16,7 @@ const dateOptions = {
 const localizedDate = currentDate.toLocaleString('en-CA', dateOptions)
 
 const motd = [
-  [{text: 'Welcome to the '}, {text: 'carc1n0gen.sh', styles: {color: '#38c6d0'}}, {text: '!'}],
+  [{text: 'Welcome to '}, {text: 'carc1n0gen.sh', styles: {color: '#38c6d0'}}, {text: '!'}],
   [{text: 'Today is '}, {text: localizedDate, styles: {fontWeight: 'bold'}}, {text: '.'}],
   [{text: 'Use the command '}, {text: 'help ', styles: {fontWeight: 'bold'}}, {text: 'for a list of commands.'}]
 ]
